@@ -74,7 +74,7 @@ h3::selection, p::selection {
 .opening-text h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 33px;
+    font-size: 38px; 
     color: #876454;
     cursor: default;
 }
