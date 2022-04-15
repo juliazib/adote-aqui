@@ -8,6 +8,11 @@ h3::selection, p::selection {
     background-color: #e8d5c4; 
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -15,6 +20,7 @@ h3::selection, p::selection {
     list-style-type: none;
     overflow: hidden;
     padding: 1%;
+
 }
 
 .buttons {
@@ -155,5 +161,130 @@ h3::selection, p::selection {
     box-shadow: 1px 1px 4px 4px #D3D3D3;
 }
 
+.sobre {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6.75%;
+}
 
+.sobre-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-texto h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 38px; 
+    color: #876454;
+    cursor: default;
+    margin-bottom: 4%;
+}
+
+.sobre-texto p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #876454;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.sobre-img img {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #AE836F;
+    border-width: 3px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6.75%;
+}
+
+.contato h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 38px; 
+    color: #876454;
+    cursor: default;
+    margin-bottom: 2.75%; 
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+form h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #876454;
+    margin-bottom: 3%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+
+form {
+    background-color:#e8d5c4;
+    border-radius: 12px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-bottom: 4%;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 18px; 
+    color: #876454;
+    cursor: default;
+}
+
+input {
+    border: none;
+    padding: 1%;
+    border-radius: 12px;
+    margin-bottom: 1%;
+    margin-right: 10%;
+}
+
+.mensagem {
+    padding-bottom: 3%;
+}
+
+.enviar {
+    background-color:#876454;
+    margin-right: 45%;
+    margin-left: 45%;
+    color:#e8d5c4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+}
+
+.enviar:hover {
+    background-color:#e8d5c4;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#876454;
+    color:#876454;
+}
 
