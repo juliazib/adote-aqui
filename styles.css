@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    overflow-x: hidden;
+    }
+
 h3::selection, p::selection {
     background-color: #e8d5c4; 
 }
@@ -140,7 +144,7 @@ header {
 .relatos-pessoais h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 23px;
     color: #876454;
     margin-bottom: 2%;
 }

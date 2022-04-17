@@ -16,6 +16,7 @@
     }
 
     .opening-info {
+        margin-left: 0;
         align-items: center;
     }
 
@@ -61,13 +62,54 @@
         text-align: center;
         margin-bottom: 4%;
     }
+
+    .enviar {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
     
 }
 
 @media screen and (max-width: 700px) {
     .navbar {
         flex-direction: column;
+        flex-wrap: wrap;
         padding-bottom: 3%;
         padding-top: 3%;
     }
+
+    .buttons {
+        margin: 0;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .opening-img img {
+        width: 100%;
+    }
+
+    .texto-impactante {
+        font-size: 20px;
+    }
+
+    .relatos-pessoais {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .relatos-pessoais p {
+        padding: 3%;
+        font-size: 20px;
+    }
+
+    .sobre-img img {
+        width: 100%;
+    }
+
+    .enviar {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+   
 }
