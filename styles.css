@@ -292,3 +292,27 @@ input {
     color:#876454;
 }
 
+.rodape {
+    background-color: #e8d5c4;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape a {
+    font-family: "Roboto", sans-serif;
+    color:#AE836F;
+    margin-bottom: 1%;
+}
+
+.rodape a:hover {
+    color:#876454;
+}
+
+.rodape p {
+    font-family: "Roboto", sans-serif;
+    color:#876454;
+    margin-bottom: 1%;
+}
